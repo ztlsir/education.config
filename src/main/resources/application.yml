@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ztlsir/education.config.file/
 
 eureka:
   client:
